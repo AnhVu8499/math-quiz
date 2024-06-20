@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('question').textContent = `${num1} - ${num2} = ?`;
             correctAnswer = num1 - num2;
         } else if (questionType === 3) {
-            document.getElementById('question').textContent = `${num1} * ${num2} = ?`;
-            correctAnswer = num1 * num2;
+            document.getElementById('question').textContent = `${num1} + ${num2} = ?`;
+            correctAnswer = num1 + num2;
         }
         // else {
         //     document.getElementById('question').textContent = `${num1} % ${num2} = ?`;
