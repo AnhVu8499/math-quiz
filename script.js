@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const generateQuestion = () => {
         const num1 = getRandomInt(1, 99);
         const num2 = getRandomInt(1, num1);
-        const nunB = 2;
+        const numB = 2;
         const numA = getRandomInt(1, 9);
         const questionType = getRandomInt(1,3);
 
