@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             correctAnswer = num1 - num2;
         } else if (questionType === 3) {
             document.getElementById('question').textContent = `${numA} × ${numB} = ?`;
-            correctAnswer = numA × numB;
+            correctAnswer = numA * numB;
         }
         // else {
         //     document.getElementById('question').textContent = `${num1} % ${num2} = ?`;
