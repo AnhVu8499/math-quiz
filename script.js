@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const generateQuestion = () => {
         const num1 = getRandomInt(1, 99);
         const num2 = getRandomInt(1, num1);
-        const numA = getRandomInt(0, 99);
+        const nunB = 2;
+        const numA = getRandomInt(0, 9);
         const questionType = getRandomInt(1,3);
 
         // Update the question text
@@ -20,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('question').textContent = `${num1} - ${num2} = ?`;
             correctAnswer = num1 - num2;
         } else if (questionType === 3) {
-            document.getElementById('question').textContent = `${numA} × 2 = ?`;
-            correctAnswer = numA × 2;
+            document.getElementById('question').textContent = `${numA} × ${numB} = ?`;
+            correctAnswer = numA × numB;
         }
         // else {
         //     document.getElementById('question').textContent = `${num1} % ${num2} = ?`;
