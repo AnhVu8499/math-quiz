@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (selectedAnswer === correctAnswer) {
                 score++;
             } else {
-                score--;
+                score-=2;
             }
             updateScore();
             generateQuestion();
