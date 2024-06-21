@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const num1 = getRandomInt(1, 99);
         const num2 = getRandomInt(1, num1);
         const nunB = 2;
-        const numA = getRandomInt(0, 9);
+        const numA = getRandomInt(1, 9);
         const questionType = getRandomInt(1,3);
 
         // Update the question text
