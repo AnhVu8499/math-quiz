@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to generate a new math question
     const generateQuestion = () => {
-        const num1 = getRandomInt(1, 10);
+        const num1 = getRandomInt(1, 99);
         const num2 = getRandomInt(1, num1);
         const questionType = getRandomInt(1,3);
 
